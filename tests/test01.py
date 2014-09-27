@@ -7,6 +7,7 @@ def soma(a, b):
 
 
 class BasicoTest(unittest.TestCase):
+    # importante: a função deve começar com a palavra "test_"
 
     def test_soma(self):
         resultado = soma(1, 2)
