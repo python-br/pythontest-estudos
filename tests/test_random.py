@@ -5,7 +5,7 @@ import unittest
 
 def gen_age():
     # gera numeros inteiros entre 15 e 99
-    return random.randint(15, 99)
+    return range(15, 99)
 
 
 class AgeTest(unittest.TestCase):
