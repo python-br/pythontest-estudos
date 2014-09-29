@@ -18,8 +18,6 @@ class AgeTest(unittest.TestCase):
         self.assertTrue(element in self.a)
 
     def test_sample(self):
-        # with self.assertRaises(ValueError):
-        #     random.sample(self.a, 20)
         for element in random.sample(self.a, 5):
             self.assertTrue(element in self.a)
 
